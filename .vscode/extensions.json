@@ -9,39 +9,5 @@
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
 		
-	],
-	// rebornix
-	"comments": {
-		"lineComment": "#",
-		"blockComment": ["=begin", "=end"]
-	},
-	"brackets": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"],
-		["begin","end"],
-		["def","end"],
-		["if","end"],
-		["case","end"],
-		["unless","end"],
-		["do","end"],
-		["class","end"],
-		["module","end"]
-	],
-	"autoClosingPairs": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"],
-		["`", "`"],
-		{ "open": "'", "close": "'", "notIn": ["string", "comment"] },
-		{ "open": "\"", "close": "\"", "notIn": ["string"] }
-	],
-	"surroundingPairs": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"],
-		["\"", "\""],
-		["'", "'"],
-		["`", "`"]
 	]
 }
